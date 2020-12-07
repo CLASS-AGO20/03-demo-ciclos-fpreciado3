@@ -62,6 +62,11 @@ export default class App {
 
         return impar;
     }
+
+    sumarParesDo() {
+        let e = 1;
+        let suma = 0;
+    }
 }
 
 let app = new App();
