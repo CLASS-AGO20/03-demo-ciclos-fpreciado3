@@ -27,4 +27,6 @@ export default class App {
 
 let app = new App();
 
+//Prueba de la función sumarParesFor()
 console.log(app.sumarParesFor());
+//Prueba de la función contarImparesFor()
