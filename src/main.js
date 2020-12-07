@@ -54,7 +54,7 @@ export default class App {
         while(d <= fin) {
 
             if(d%2 !== 0) {
-                impar++;
+                impar = impar +1;
             }
 
             d++;
