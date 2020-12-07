@@ -89,6 +89,8 @@ export default class App {
 
             f++;
         } while(f <= fin);
+
+        return impar;
     }
 }
 
