@@ -74,6 +74,8 @@ export default class App {
 
             e++;
         } while(e <= 20);
+
+        return suma;
     }
 }
 
