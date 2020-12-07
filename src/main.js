@@ -71,7 +71,9 @@ export default class App {
             if(e%2 == 0) {
                 suma = suma + e;
             }
-        }
+
+            e++;
+        } while(e <= 20);
     }
 }
 
