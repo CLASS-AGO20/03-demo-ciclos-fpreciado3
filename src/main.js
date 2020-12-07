@@ -49,7 +49,7 @@ export default class App {
     contarImparesWhile(inicio, fin) {
 
         let d = inicio;
-        let impar = 0,
+        let impar = 0;
     }
 }
 
