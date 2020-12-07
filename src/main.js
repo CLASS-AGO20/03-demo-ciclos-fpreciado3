@@ -15,7 +15,13 @@ export default class App {
     contarImparesFor(inicio, fin) {
         let impar = 0;
 
-        for(let c = inicio; c<=fin; c + 1) {
+        if(inicio > fin) {
+            let t = inicio;
+            inicio = fin;
+            fin = t;
+        }
+
+        for(let c = inicio; c<=fin; c++) {
             if(c%2 !== 0) {
                 impar = impar + 1;
             }
@@ -30,4 +36,3 @@ let app = new App();
 //Prueba de la función sumarParesFor()
 console.log(app.sumarParesFor());
 //Prueba de la función contarImparesFor()
-console.log(app.contarImparesFor(2, 10));
