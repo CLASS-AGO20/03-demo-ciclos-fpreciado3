@@ -107,3 +107,5 @@ console.log(app.sumarParesWhile());
 console.log(app.contarImparesWhile(2,18));
 //Prueba de la función sumarParesDo()
 console.log(app.sumarParesDo());
+//Prueba de la función contarImparesDo()
+console.log(app.contarImparesWhile(3,17));
