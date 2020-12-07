@@ -29,6 +29,11 @@ export default class App {
 
         return impar;
     }
+
+    sumarParesWhile() {
+        let c = 1;
+        let suma = 0;
+    }
 }
 
 let app = new App();
