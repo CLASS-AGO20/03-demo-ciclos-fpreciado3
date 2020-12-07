@@ -90,3 +90,5 @@ console.log(app.contarImparesFor(12,5));
 console.log(app.sumarParesWhile());
 //Prueba de la función contarImparesWhile()
 console.log(app.contarImparesWhile(2,18));
+//Prueba de la función sumarParesDo()
+console.log(app.sumarParesDo());
