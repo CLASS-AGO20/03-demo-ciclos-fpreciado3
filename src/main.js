@@ -20,6 +20,8 @@ export default class App {
                 impar = impar + 1;
             }
         }
+
+        return impar;
     }
 }
 
