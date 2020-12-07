@@ -79,6 +79,14 @@ export default class App {
     }
 
     contarImparesDo(inicio, fin) {
+
+
+        if(inicio > fin) {
+            let t = inicio;
+            inicio = fin;
+            fin = t;
+        }
+        
         let f = inicio;
         let impar = 0;
 
@@ -108,4 +116,5 @@ console.log(app.contarImparesWhile(2,18));
 //Prueba de la función sumarParesDo()
 console.log(app.sumarParesDo());
 //Prueba de la función contarImparesDo()
-console.log(app.contarImparesDo(3,17));
+console.log(app.contarImparesDo(3,14));
+console.log(app.contarImparesDo(17,2));
