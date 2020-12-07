@@ -56,7 +56,11 @@ export default class App {
             if(d%2 !== 0) {
                 impar++;
             }
+
+            d++;
         }
+
+        return impar;
     }
 }
 
