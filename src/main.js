@@ -86,7 +86,9 @@ export default class App {
             if(f%2 !== 0) {
                 impar = impar + 1;
             }
-        }
+
+            f++;
+        } while(f <= fin);
     }
 }
 
