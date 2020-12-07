@@ -39,7 +39,11 @@ export default class App {
             if(c%2 == 0) {
                 suma = suma + c;  
             }
+
+            c = c + 1;
         }
+
+        return suma;
     }
 }
 
