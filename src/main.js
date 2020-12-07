@@ -54,3 +54,5 @@ console.log(app.sumarParesFor());
 //Prueba de la función contarImparesFor()
 console.log(app.contarImparesFor(2,12));
 console.log(app.contarImparesFor(12,5));
+//Prueba de la función sumarParesWhile()
+console.log(app.sumarParesWhile());
