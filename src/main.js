@@ -73,3 +73,5 @@ console.log(app.contarImparesFor(2,12));
 console.log(app.contarImparesFor(12,5));
 //Prueba de la función sumarParesWhile()
 console.log(app.sumarParesWhile());
+//Prueba de la función contarImparesWhile()
+console.log(app.contarImparesWhile(2,18));
