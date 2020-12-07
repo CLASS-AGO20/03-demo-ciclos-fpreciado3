@@ -9,6 +9,10 @@ export default class App {
 
         return suma;
     }
+
+    contarImparesFor(inicio, fin) {
+        let impar = 0;
+    }
 }
 
 let app = new App();
