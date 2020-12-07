@@ -77,6 +77,11 @@ export default class App {
 
         return suma;
     }
+
+    contarImparesDo(inicio, fin) {
+        let f = inicio;
+        let impar = 0;
+    }
 }
 
 let app = new App();
