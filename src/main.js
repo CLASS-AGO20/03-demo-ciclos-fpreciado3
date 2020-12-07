@@ -30,3 +30,4 @@ let app = new App();
 //Prueba de la función sumarParesFor()
 console.log(app.sumarParesFor());
 //Prueba de la función contarImparesFor()
+console.log(app.contarImparesFor(2, 10));
