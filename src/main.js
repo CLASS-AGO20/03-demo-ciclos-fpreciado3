@@ -50,6 +50,13 @@ export default class App {
 
         let d = inicio;
         let impar = 0;
+
+        while(d <= fin) {
+
+            if(d%2 !== 0) {
+                impar++;
+            }
+        }
     }
 }
 
