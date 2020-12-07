@@ -66,6 +66,12 @@ export default class App {
     sumarParesDo() {
         let e = 1;
         let suma = 0;
+
+        do {
+            if(e%2 == 0) {
+                suma = suma + e;
+            }
+        }
     }
 }
 
