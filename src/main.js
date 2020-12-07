@@ -54,7 +54,7 @@ export default class App {
         while(d <= fin) {
 
             if(d%2 !== 0) {
-                impar = impar +1;
+                impar = impar + 1;
             }
 
             d++;
@@ -81,6 +81,12 @@ export default class App {
     contarImparesDo(inicio, fin) {
         let f = inicio;
         let impar = 0;
+
+        do {
+            if(f%2 !== 0) {
+                impar = impar + 1;
+            }
+        }
     }
 }
 
