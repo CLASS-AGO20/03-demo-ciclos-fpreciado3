@@ -45,6 +45,12 @@ export default class App {
 
         return suma;
     }
+
+    contarImparesWhile(inicio, fin) {
+
+        let d = inicio;
+        let impar = 0,
+    }
 }
 
 let app = new App();
