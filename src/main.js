@@ -36,7 +36,9 @@ export default class App {
 
         while(c <= 20) {
 
-            
+            if(c%2 == 0) {
+                suma = suma + c;  
+            }
         }
     }
 }
