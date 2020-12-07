@@ -33,6 +33,11 @@ export default class App {
     sumarParesWhile() {
         let c = 1;
         let suma = 0;
+
+        while(c <= 20) {
+
+            
+        }
     }
 }
 
